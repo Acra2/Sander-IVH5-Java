@@ -6,7 +6,7 @@ public class Student {
 	private Datum gbDatum;
 	private Studieprogramma sp;
 	
-	public Student(String naam, int nr, Studieprogramma sp ,   Datum datum){
+	public Student(String naam, int nr, Studieprogramma sp,   Datum datum){
 		this.naam = naam;
 		this.nr = nr;
 		this.gbDatum = datum;

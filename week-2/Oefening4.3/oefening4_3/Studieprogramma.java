@@ -12,7 +12,7 @@ public class Studieprogramma {
 	public Studieprogramma(Datum startdatum, Datum einddatum){
 		this.startdatum = startdatum;
 		this.einddatum = einddatum;
-		vaklijst = new ArrayList();
+		vaklijst = new ArrayList<Vak>();
 		
 	}
 	

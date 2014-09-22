@@ -1,4 +1,4 @@
-package oefening4_5;
+package Oefening4_6;
 
 public class Main {
 
@@ -6,6 +6,15 @@ public class Main {
 		Kat ka1 = new Kat("Harry");
 		Hond ho1 = new Hond("Fred");
 		Hamster ha1 = new Hamster("kees");
+		
+		
+		Dierenwinkel dw = new Dierenwinkel();
+		dw.voegtoe(ka1);
+		dw.voegtoe(ho1);
+		dw.voegtoe(ka1);
+		
+		dw.printOverzicht();
+		System.out.println();
 		System.out.println("Kat:");
 		System.out.println("Naam: "+ka1.getNaam());
 		ka1.maakGeluid();
@@ -19,6 +28,8 @@ public class Main {
 		System.out.println("Hamster:");
 		System.out.println("Naam: "+ha1.getNaam());
 		ha1.maakGeluid();
+		
+		
 		
 	}
 
