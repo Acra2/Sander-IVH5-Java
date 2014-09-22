@@ -4,11 +4,13 @@ public class Student {
 	private String naam;
 	private int nr;
 	private Datum gbDatum;
+	private Studieprogramma sp;
 	
-	public Student(String naam, int nr, Datum datum){
+	public Student(String naam, int nr, Studieprogramma sp ,   Datum datum){
 		this.naam = naam;
 		this.nr = nr;
 		this.gbDatum = datum;
+		this.sp = sp;
 	}
 	
 	
@@ -21,9 +23,8 @@ public class Student {
 	}
 	
 	public String getGeboorteDatum(){
-		String geboorteDatum = gbDatum.getDag() + "-" + gbDatum.getMaand() + "-" + gbDatum.getJaar();
-		
-		return geboorteDatum;
+		return gbDatum.getDag() + "-" + gbDatum.getMaand() + "-" + gbDatum.getJaar();
+ 
 	}
 	
 	
