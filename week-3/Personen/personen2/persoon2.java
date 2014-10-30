@@ -1,11 +1,13 @@
-package personen;
+package personen2;
 
-public class Persoon {
+import java.io.*;
+
+public class persoon2 implements Serializable {
 	private String naam;
 	private String adres;
 	private String woonplaats;
 	
-	public Persoon(String naam, String adres, String woonplaats){
+	public persoon2(String naam, String adres, String woonplaats){
 		this.naam = naam;
 		this.adres = adres;
 		this.woonplaats = woonplaats;
